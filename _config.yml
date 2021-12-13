@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" 
   disqus:
-    shortname            : "orca-research-lab"
+    shortname            : "sungmins-data-science-archive"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -113,14 +113,14 @@ author:
       url: "mailto:skybluee0612@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/CloudyWoo"
+      url: https://github.com/SungminWooArchive
 
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/CloudyWoo"
+      url: https://github.com/SungminWooArchive
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
