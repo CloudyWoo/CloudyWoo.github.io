@@ -4,14 +4,35 @@ main:
     url: /categories/
   - title: "Tag"
     url: /tags/
+  - title: "Search"
+    url: /search/
 
 docs:
-  - title: "대목차"
+  - title: "label"
     children:
-      - titles: "Category"
+      - title: "Category"
         url: /categories/
-      - titles: "Tag"
+      - title: "Tag"
         url: /tags/
+
+  - title: "Data Science"
+    children:
+      - title: "Stats"
+        url: /stats/
+      - title: "R language"
+        url: /r_lang/
+      - title: "Python"
+        url: /python/
+
+  - title: "Computer Science"
+    children: 
+      - title: "C"
+        url: /_lang/
+      - title: "Java"
+        url: /java/
+      - title: "Web"
+        url: /web/
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
