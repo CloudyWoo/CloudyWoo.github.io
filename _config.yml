@@ -20,7 +20,7 @@ title                    : "Sungmin's Data Science Blog"
 title_separator          : "|"
 subtitle                 : "CONNECT AND CONTINUE"
 name                     : "Sungmin Woo"
-description              : "퀀트가 되고 싶은 학생입니다!"
+description              : "DevOps/MLOps"
 url                      : "https://sungminwoo.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -268,3 +268,4 @@ defaults:
       share: true
       related: true
       show_date: true
+      sidebar_main: true
