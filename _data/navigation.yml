@@ -8,30 +8,30 @@ main:
     url: /search/
 
 docs:
-  - title: "label"
-    children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
+#  - title: "label"
+#    children:
+#      - title: "Category"
+#        url: /categories/
+#      - title: "Tag"
+#        url: /tags/
 
-  - title: "Data Science"
-    children:
-      - title: "Stats"
-        url: /stats/
-      - title: "R language"
-        url: /r_lang/
-      - title: "Python"
-        url: /python/
+#  - title: "Data Science"
+#    children:
+#      - title: "Stats"
+#        url: /stats/
+#      - title: "R language"
+#        url: /r_lang/
+#      - title: "Python"
+#        url: /python/
 
-  - title: "Computer Science"
-    children: 
-      - title: "C"
-        url: /_lang/
-      - title: "Java"
-        url: /java/
-      - title: "Web"
-        url: /web/
+#  - title: "Computer Science"
+#    children: 
+#      - title: "C"
+#        url: /_lang/
+#      - title: "Java"
+#        url: /java/
+#      - title: "Web"
+#        url: /web/#
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
