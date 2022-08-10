@@ -56,3 +56,43 @@ k8s의 제공 기능 중 환경에 따라 제한 가능한 기능들
 위의 방법들로 구축된 환경은 모두 쿠버네티스 적합성 인증 프로그램에서 인증된 
 Certified Kubernetes Distribution/Platform이다.
 
+
+#### 미니큐브
+- 물리 머신에 로컬 쿠버네티스를 쉽게 구축하고 실행할 수 있는 도구
+- SIG-Cluster-Lifecycle에서 만듦
+- 단일 노드 구성 -> 여러 대의 구성이 필요한 k8s 기능 구현 제한
+- 로컬 가상 머신에 k8s 설치 위해선 hypervisor 필요
+    - Windows : Docker/VirtualBox/Hyper-V
+    - Linux : Docker/VirtualBox/Podman/KVM/Bare Metal
+    - MacOs
+
+#### Docker Desktop for Mac/Windows
+``` bash
+# 컨텍스트 변경
+$ kubectl config use-context docker-desktop
+Switched to context "docker-desktop"
+```
+
+kubectl에서는 로컬 머신에 기동 중인 도커 호스트를 k8s 노드로 인식한다.
+``` bash
+# 노드 확인
+$ kubectl get nodes
+NAME            STATUS  ROLES   AGE     VERSION
+docker-desktop  Ready   master  2m44s   v16.6-beta.0
+```
+
+k8s 클러스터 기능을 담당하는 component 그룹도 컨테이너로 기동된다.
+k8s 활성화 시 Show system containers(advance)로 활성화하면 
+docker contianer ls 명령어로 구성 요소를 확인할 수 있다.
+``` bash
+# 기동 중인 쿠버네티스 관련 구성 요소 확인
+$ docker container ls --format 'table {{.Image}}\t{{.Command}}' | grep -v pause
+```
+
+#### kind, kubernetes in docker
+- k8s 자체 개발을 위한 도구
+- k8s의 SIG-Testing에서 제작
+- 도커 컨테이너 여러 개를 기동하고 그 컨테이너를 쿠버네티스 노드로 사용하는 것 => 쿠버네티스 클러스터 구축
+- 로컬 환경에서 멀티 노드 클러스터를 구축하려면 kind를 이용하는 것이 가장 효과적(Why?)
+
+

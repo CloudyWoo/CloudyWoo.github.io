@@ -64,7 +64,7 @@ Dom 0 and Dom U.
     - create and configure Dom Us.
 - Dom U = guset domains
 
-- All Xen virtualization environments require Dom 0 to be running before any other virtual machine.
+- All Xen virtualization environments require Dom 0 to be running before any other virtual machine.`    
 
 4. VMWare
 
