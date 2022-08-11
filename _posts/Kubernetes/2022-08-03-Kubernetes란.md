@@ -86,7 +86,7 @@ k8s 활성화 시 Show system containers(advance)로 활성화하면
 docker contianer ls 명령어로 구성 요소를 확인할 수 있다.
 ``` bash
 # 기동 중인 쿠버네티스 관련 구성 요소 확인
-$ docker container ls --format 'table {{.Image}}\t{{.Command}}' | grep -v pause
+$ docker container ls --format 'table \{\{.Image}}\t\{\{.Command}}' | grep -v pause
 ```
 
 #### kind, kubernetes in docker
