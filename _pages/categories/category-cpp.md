@@ -1,7 +1,7 @@
 ---
 title: "C/C++"
 layout: archive
-permalink: categories/Cpp
+permalink: categories/cpp
 author_profile: true
 sidebar_main: true
 ---
