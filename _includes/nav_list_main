@@ -45,7 +45,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <span class="nav__sub-title">DevOps</span>
+            <span class="nav__sub-title">Docker</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Docker" %}
@@ -53,6 +53,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <span class="nav__sub-title">Kubernetes</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Kubernetes" %}
