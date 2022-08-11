@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "Docker vs. VM"
+title:  "Docker vs. Virtual Machine"
 excerpt: "VM과 비교를 통한 Docker 필요성에 대해 알아보자"
 
 categories:
