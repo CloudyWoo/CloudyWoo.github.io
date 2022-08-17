@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Sungmin's Data Science Blog"
+title                    : "Sungmin's DevOps Blog"
 title_separator          : "|"
 subtitle                 : "CONNECT AND CONTINUE"
 name                     : "Sungmin Woo"
