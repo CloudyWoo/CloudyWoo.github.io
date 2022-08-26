@@ -61,4 +61,8 @@ sudo apt-get purge mongodb-org*
 sudo rm -r /var/log/mongodb
 sudo rm -r /var/lib/mongodb
 
+---
 
+![image1](/assets/images/mongodb/mongodb-gpg-key.png)
+![image2](/assets/images/mongodb/systemctl-mongodb.png)
+![image3](/assets/images/mongodb/mongosh.png)
