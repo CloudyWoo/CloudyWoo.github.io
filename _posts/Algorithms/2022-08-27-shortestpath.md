@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "[Algorithms] Shortestpath Algorithm"
+title:  "\[Algorithms\] Shortestpath Algorithm"
 excerpt: ""
 
 categories: 

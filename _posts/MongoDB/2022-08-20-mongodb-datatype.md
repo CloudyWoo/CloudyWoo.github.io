@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "[MongoDB] 데이터형"
+title:  "\[MongoDB\] 데이터형"
 excerpt: ""
 
 categories: 

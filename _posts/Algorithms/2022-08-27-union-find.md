@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "[Algorithms] Union-Find"
+title:  "\[Algorithms\] Union-Find"
 excerpt: ""
 
 categories: 

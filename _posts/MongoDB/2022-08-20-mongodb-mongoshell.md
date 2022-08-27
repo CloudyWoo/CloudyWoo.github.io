@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "[MongoDB] 몽고쉘(MongoShell)"
+title:  "\[MongoDB\] 몽고쉘(MongoShell)"
 excerpt: ""
 
 categories: 

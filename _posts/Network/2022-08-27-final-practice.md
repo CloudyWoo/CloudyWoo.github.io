@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "[Network] 기말고사 실습"
+title:  "\[Network\] 기말고사 실습"
 excerpt: ""
 
 categories: 

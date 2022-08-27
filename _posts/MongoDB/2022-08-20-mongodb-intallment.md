@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "[MongoDB] 설치"
+title:  "\[MongoDB\] 설치"
 excerpt: ""
 
 categories: 

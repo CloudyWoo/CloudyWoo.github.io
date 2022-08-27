@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "[MongoDB] 도큐먼츠(Documents)"
+title:  "\[MongoDB\] 도큐먼츠(Documents)"
 excerpt: ""
 
 categories: 

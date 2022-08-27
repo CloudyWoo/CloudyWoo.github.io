@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "[Algorithms] Kruskal Algorithm"
+title:  "\[Algorithms\] Kruskal Algorithm"
 excerpt: ""
 
 categories: 

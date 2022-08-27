@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "[Network] 기말고사 서술형 정리"
+title:  "\[Network\] 기말고사 서술형 정리"
 excerpt: ""
 
 categories: 

@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "[Algorithms] Inversion Counting"
+title:  "\[Algorithms\] Inversion Counting"
 excerpt: ""
 
 categories: 

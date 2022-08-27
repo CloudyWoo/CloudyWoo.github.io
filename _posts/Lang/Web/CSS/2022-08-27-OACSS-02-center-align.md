@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "너비높이를 알 수 없는 div 가로세로 모두 가운데 정렬"
+title:  "\[CSS\] 너비높이를 알 수 없는 div 가로세로 모두 가운데 정렬"
 excerpt: ""
 
 categories: 
