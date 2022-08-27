@@ -1,12 +1,12 @@
 ---
 layout: single
 
-title:  "리눅스 마스터 1급 기출문제 정리 (1)"
+title:  "리눅스 마스터 1급 기출문제 정리 (2)"
 excerpt: ""
 
 categories: 
     - Linux
-tags: [Linux, Certificates]
+tags: [linux, Certificates]
 
 toc: true
 author_profile: false

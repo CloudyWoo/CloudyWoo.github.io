@@ -6,7 +6,7 @@ excerpt: ""
 
 categories: 
     - Linux
-tags: [Linux, Certificates]
+tags: [linux, Certificates]
 
 toc: true
 author_profile: false
