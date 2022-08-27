@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "\[Dart\] Getter & Setter"
+title:  "\\[Dart\\] Getter & Setter"
 excerpt: ""
 
 categories: 

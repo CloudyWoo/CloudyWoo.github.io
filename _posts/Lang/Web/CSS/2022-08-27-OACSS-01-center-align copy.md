@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "\[CSS\] 텍스트 요소 가로, 세로 가운데 정렬"
+title:  "\\[CSS\\] 텍스트 요소 가로, 세로 가운데 정렬"
 excerpt: ""
 
 categories: 

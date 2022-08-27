@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "\[Dart\] 생성자"
+title:  "\\[Dart\\] 생성자"
 excerpt: ""
 
 categories: 

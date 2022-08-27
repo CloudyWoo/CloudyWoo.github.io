@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "\[Dart\] switch-case문"
+title:  "\\[Dart\\] switch-case문"
 excerpt: ""
 
 categories: 

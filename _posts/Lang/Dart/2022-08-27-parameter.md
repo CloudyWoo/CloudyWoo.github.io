@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "\[Dart\] 매개변수"
+title:  "\\[Dart\\] 매개변수"
 excerpt: ""
 
 categories: 

@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "\[DevOps\] Ship, Deploy, Release"
+title:  "\\[DevOps\\] Ship, Deploy, Release"
 excerpt: ""
 
 categories: 

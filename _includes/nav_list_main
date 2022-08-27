@@ -19,35 +19,35 @@
                     <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                     {% for category in site.categories %}
                         {% if category[0] == "Cpp" %}
-                            <li><a href="/categories/cpp" class="">C++({{category[1].size}})</a></li>
+                            <li><a href="/categories/cpp" class="">C++ ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "Java" %}
-                            <li><a href="/categories/java" class="">Java({{category[1].size}})</a></li>
+                            <li><a href="/categories/java" class="">Java ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "Python" %}
-                            <li><a href="/categories/python" class="">Python({{category[1].size}})</a></li>
+                            <li><a href="/categories/python" class="">Python ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "Dart" %}
-                            <li><a href="/categories/dart" class="">Dart({{category[1].size}})</a></li>
+                            <li><a href="/categories/dart" class="">Dart ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "PHP" %}
-                            <li><a href="/categories/php" class="">PHP({{category[1].size}})</a></li>
+                            <li><a href="/categories/php" class="">PHP ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
@@ -55,21 +55,21 @@
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "Network" %}
-                            <li><a href="/categories/network" class="">네트워크({{category[1].size}})</a></li>
+                            <li><a href="/categories/network" class="">네트워크 ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "Algorithm" %}
-                            <li><a href="/categories/algorithm" class="">알고리즘 구현(with C++)({{category[1].size}})</a></li>
+                            <li><a href="/categories/algorithm" class="">알고리즘 구현 (with C++) ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "Programmers" %}
-                            <li><a href="/categories/programmers" class="">프로그래머스({{category[1].size}})</a></li>
+                            <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
@@ -77,21 +77,21 @@
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "DevOps" %}
-                            <li><a href="/categories/devops" class="">DevOps({{category[1].size}})</a></li>
+                            <li><a href="/categories/devops" class="">DevOps ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "Docker" %}
-                            <li><a href="/categories/docker" class="">Docker({{category[1].size}})</a></li>
+                            <li><a href="/categories/docker" class="">Docker ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "Kubernetes" %}
-                            <li><a href="/categories/kubernetes" class="">Kubernetes({{category[1].size}})</a></li>
+                            <li><a href="/categories/kubernetes" class="">Kubernetes ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
@@ -99,7 +99,7 @@
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "MongoDB" %}
-                            <li><a href="/categories/mongodb" class="">MongoDB({{category[1].size}})</a></li>
+                            <li><a href="/categories/mongodb" class="">MongoDB ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
@@ -107,7 +107,7 @@
                 <ul>
                     {% for category in site.categories %}
                         {% if category[0] == "TIL" %}
-                            <li><a href="/categories/til" class="">TIL({{category[1].size}})</a></li>
+                            <li><a href="/categories/til" class="">TIL ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}
                 </ul>
